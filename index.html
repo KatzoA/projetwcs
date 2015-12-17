@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Circus </title>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="circus.css"/>
+  </head>
+
+  <body>
+    <h1>Le cirque Tololo!!</h1>
+    </br>
+    <section>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/_niiq7xneok" frameborder="0" allowfullscreen></iframe>
+    </section>
+      <div class="first">
+        <p>NOS ARTISTES<br />
+        <small>Au Wild Circus, il n’y a qu’un pas entre la joie et les frissons.<br>Frédéric Edelstein et ses 12 Lions Blancs<br>
+        Une nouvelle troupe de volants, des clowns malicieux, une artiste élastique, des acrobates à la force surhumaine<br>
+        Sans oublier les animaux<br>
+        Vous redécouvrirez également les fabuleux artistes à 4 pattes véritables stars de Wild Circus.
+        </small></p>
+      </div>
+
+      <div class="second">
+        <p>NOS DATES<br />
+        <small>Vos clown favoris seront bientôt en tournée et certainement proche de chez vous!! Consultez dès à présent retrouver toutes les dates <a href="http://www.katxiporreta.eus/agenda/index.php">ICI</a>
+        </br>
+        </br>
+      </small></p>
+      </div>
+      
+      <div class="third">
+        <p>NOUS CONTACTER<br />
+        <small>Vous pouvez aussi nous contacter afin d'en apprendre plus sur notre cirque et pourquoi pas venir visiter l'envers du décors!! C'est par <a href="contact.html">ICI</a>
+        </small></p>
+      </div>
+
+    <script>
+      $('div').on('click', function() {
+          $(this).toggleClass('show-description');
+      });
+    </script>
+
+  </body>
+</html>
+
